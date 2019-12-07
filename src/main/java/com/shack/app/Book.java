@@ -15,7 +15,9 @@ public class Book {
     private String author;
     private BigDecimal price;
 
-    // avoid this "No default constructor for entity"
+	/*
+	 * avoid this "No default constructor for entity"
+	 */
     public Book() {
     }
 
@@ -24,6 +26,7 @@ public class Book {
         this.name = name;
         this.author = author;
         this.price = price;
+        
     }
 
     public Book(String name, String author, BigDecimal price) {
