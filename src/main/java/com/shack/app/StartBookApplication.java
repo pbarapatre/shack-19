@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Profile;
 
+import com.shack.app.model.Book;
+import com.shack.app.repository.BookRepository;
+
 import java.math.BigDecimal;
 
 @SpringBootApplication

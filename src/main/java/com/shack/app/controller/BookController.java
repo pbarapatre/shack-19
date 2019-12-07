@@ -1,7 +1,10 @@
-package com.shack.app;
+package com.shack.app.controller;
 
 import com.shack.app.error.BookNotFoundException;
 import com.shack.app.error.BookUnSupportedFieldPatchException;
+import com.shack.app.model.Book;
+import com.shack.app.repository.BookRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.util.StringUtils;
