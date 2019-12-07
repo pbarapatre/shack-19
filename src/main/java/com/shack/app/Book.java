@@ -16,6 +16,8 @@ public class Book {
     private BigDecimal price;
 
 	/*
+	 * 
+	 * 
 	 * avoid this "No default constructor for entity"
 	 */
     public Book() {
