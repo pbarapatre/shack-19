@@ -1,7 +1,0 @@
-com\shack\app\error\BookNotFoundException.class
-com\shack\app\StartBookApplication.class
-com\shack\app\error\BookUnSupportedFieldPatchException.class
-com\shack\app\Book.class
-com\shack\app\BookController.class
-com\shack\app\BookRepository.class
-com\shack\app\error\CustomGlobalExceptionHandler.class
