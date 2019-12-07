@@ -1,0 +1,43 @@
+<clr-header class="header-6">
+  <div class="branding">
+    <a routerlink="/home">
+      <div class="logo-and-title">
+        <!-- <span class="logo"> -->
+          <!-- <img src="../../favicon.ico" srcset="../../assets/logo@2x.png 2x, ../../assets/logo@3x.png 3x" /> -->
+          <!-- <img src="../../assets/icon-hackathon.png"/> -->
+        <!-- </span> -->
+        <span class="name"> Skillenza Hack-19 </span>
+      </div>
+    </a>
+    <div *ngIf="searchText">
+      <form class="search">
+        <label for="search_input">
+           FIXME: 1) enable the input after determining from UX team how is it supposed (which all entities) to work from a global search
+            2) the css of the header search supplied in mockup makes the whole search to go white, even the text, the search icon and thus invisible. need to handle the CSS too
+          <input id="search_input" type="text" placeholder="Search for keywords..." [value]="searchText" disabled="true" />
+        </label>
+      </form>
+    </div>
+  </div>
+  <div class="header-nav"></div>
+  <!-- <div class="header-actions">
+    <a routerLink="/admin" class="nav-link nav-icon">
+      Admin
+    </a>
+    <clr-dropdown>
+      <button class="nav-icon dropdown-toggle dropdown hide" (click)="toggleSidePanel()">
+        <clr-icon id="flag-header-shape" shape="flag" [ngClass]="isSolid ? 'is-solid' : ''"></clr-icon>
+        <clr-icon id="caret-icon" [attr.shape]="isCaretUp ? 'caret down' : 'caret up'"></clr-icon>
+      </button>
+    </clr-dropdown>
+    <clr-dropdown>
+      <button clrDropdownTrigger class="nav-icon dropdown dropdown-toggle">
+        <clr-icon shape="user"></clr-icon>
+      </button>
+      <clr-dropdown-menu *clrIfOpen clrPosition="bottom-right">
+        <div class="dropdown-divider"></div>
+        <button class="dropdown-item" (click)="logout()">Log out</button>
+      </clr-dropdown-menu>
+    </clr-dropdown>
+  </div> -->
+</clr-header>

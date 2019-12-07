@@ -1,0 +1,22 @@
+.card {
+  width: 13.2rem;
+  height: 11.2rem;
+}
+
+.card-icon {
+  width: 4.2rem;
+  height: 5.4rem;
+  opacity: 0.5;
+}
+
+.user {
+  color: #2cb40ad3;
+}
+
+.cloud {
+  color: #000000;
+}
+
+.portfolio {
+  color: #930decf3;
+}

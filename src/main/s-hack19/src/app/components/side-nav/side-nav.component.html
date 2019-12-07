@@ -1,0 +1,16 @@
+<clr-vertical-nav [clrVerticalNavCollapsible]="true" [(clrVerticalNavCollapsed)]="collapsed" [clr-nav-level]="1" style="height: 100%">
+  <div *ngIf="entityItems.length !== 0">
+    <a clrVerticalNavLink [routerLink]="['/lead']" routerLinkActive="active">
+      <clr-icon clrVerticalNavIcon shape="grid-view"></clr-icon>
+      Leads
+    </a>
+    <a clrVerticalNavLink [routerLink]="['/product']" routerLinkActive="active">
+      <clr-icon clrVerticalNavIcon shape="library"></clr-icon>
+      Products
+    </a>
+    <a clrVerticalNavLink [routerLink]="['/report']" routerLinkActive="active">
+      <clr-icon clrVerticalNavIcon shape="view-list"></clr-icon>
+      Report
+    </a>
+  </div>
+</clr-vertical-nav>

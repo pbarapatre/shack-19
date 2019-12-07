@@ -1,0 +1,54 @@
+<form class="search" (ngSubmit)="createLead()">
+  <div class="container-div pl-1">
+    <div class="clr-row pb-1">
+      <label class="clr-control-label pr-1">Lead source</label>
+      <select id="select-basic" class="clr-select pr-1">
+        <option value="Organic Search">Organic Search</option>
+        <option value="Google">Google</option>
+        <option value="Facebook">Facebook</option>
+        <option value="Reference">Reference</option>
+        <option value="Pay per Click Ads">Pay per Click Ads</option>
+        <option value="Bing">Bing</option>
+        <option value="Social Media">Social Media</option>
+        <option value="WeLearn">WeLearn</option>
+        <option value="Click to call">Click to call</option>
+        <option value="Live Chat">Live Chat</option>
+      </select>
+      <!-- <label class="clr-control-label">Do not mail</label> -->
+      <clr-checkbox-wrapper class="pl-1">
+        <input type="checkbox" clrCheckbox value="'true'" name="mailOption"/>
+        <label>Do not mail</label>
+      </clr-checkbox-wrapper>
+    </div>
+    <div class="clr-row pb-1">
+      <clr-checkbox-wrapper class="pr-1">
+        <input type="checkbox" clrCheckbox value="'true'" name="callOption"/>
+        <label>Do not call</label>
+      </clr-checkbox-wrapper>
+      <label class="clr-control-label pl-2 pr-1">Converted</label>
+      <select id="select-basic" class="clr-select">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+    </div>
+    <div class="clr-row pb-2">
+      <label class="clr-control-label pr-1">Country</label>
+      <select id="select-basic" class="clr-select">
+        <option value="India">India</option>
+        <option value="Russia">Russia</option>
+        <option value="Kuwait">Kuwait</option>
+        <option value="Oman">Oman</option>
+      </select>
+      <label class="clr-control-label pl-1 pr-1">Occupation</label>
+      <select id="select-basic" class="clr-select">
+        <option value="Unemployed">Unemployed</option>
+        <option value="Student">Student</option>
+        <option value="Working Professional">Working Professional</option>
+        <option value="Business Man">Business Man</option>
+        <option value="Housewife">Housewife</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <button class="btn btn-primary user-btn pl-1">ADD LEAD</button>
+  </div>
+</form>
